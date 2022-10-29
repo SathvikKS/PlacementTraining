@@ -1,3 +1,4 @@
+import java.util.Map;
 import java.util.TreeMap;
 
 public class HashMapExample {
@@ -8,6 +9,9 @@ public class HashMapExample {
         map.put("Zara", "8");
         map.put("Mahnaz", "31");
         map.put("Sks", "21");
+        for (Map.Entry e :map.entrySet()) {
+
+        }
         System.out.println(map);
     }
 }
